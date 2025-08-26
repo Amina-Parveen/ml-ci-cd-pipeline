@@ -20,4 +20,5 @@ model = joblib.load('model/iris_model.pkl')
 y_pred = model.predict(X_test)
 
 # Evaluate the model
-accuracy = accuracy_score(y_test, y_pred) print(f'Model accuracy: {accuracy:.2f}')
+accuracy = accuracy_score(y_test, y_pred) 
+print(f'Model accuracy: {accuracy:.2f}')

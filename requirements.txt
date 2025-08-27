@@ -1,3 +1,6 @@
-Pandas
+flask
+pandas
 Scikit-learn
 Joblib
+gunicorn
+numpy

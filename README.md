@@ -84,10 +84,15 @@ Response:
   "predictions": [0]
 }
 ```
+
+---
+
 ## Deployment
 - Deployed on Render: [Render Deployment Link](https://ml-ci-cd-pipeline-dkje.onrender.com/)
 - Auto-deploys whenever changes are pushed to the main branch.
 Note: Prediction through the deployed server is under development.
+
+---
 
 ## Tech Stack
 - **Python** – Scripting and ML
@@ -123,5 +128,3 @@ Note: Prediction through the deployed server is under development.
 ---
 
 ✨ *This project is for learning and academic purposes only.*
-
-

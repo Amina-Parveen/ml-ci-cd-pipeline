@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 
-MODEL_PATH  =  os.get_env("MODEL_PATH", "model/iris_model.pkl")
+MODEL_PATH  =  os.getenv("MODEL_PATH", "model/iris_model.pkl")
 
 app = Flask(_name_)
 
